@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Courses @GCET</title>
+        <link rel="icon" href="images/GCET-LOGO.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-2">
+            <nav>
+                <a href="index.html"><img src="images/GCET-LOGO.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+<!-- --------Courses-------- -->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>All Undergraduate and Postgraduate Programs are affiliated to
+        <br>Jawaharlal Nehru Tecnological University,Hyderabad(JNTUH)</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Under Graduation Programme</h3>
+            <p>Undergraduate education is education conducted after secondary education and prior to postgraduate education. It typically includes all postsecondary programs up to the level of a bachelor's degree. BE in the case of our college.</p>
+            <a href="ugcourses.html" class="hero-btn red-btn">EXPLORE</a>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation Programme</h3>
+            <p>Postgraduate education involves learning and studying for academic or professional degrees, academic or professional certificates, academic or professional diplomas, or other qualifications for which a first or bachelor's degree generally is required, and it is normally considered to be part of higher education.</p>
+            <a href="http://www.rknec.edu/Admissions/AdmissionMTech.aspx#" class="hero-btn red-btn">EXPLORE</a>
+        </div>
+    </div>
+</section>
+
+<!-- -------FACILITIES------- -->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg" alt="">
+            <h3>World Class Library</h3>
+            <p>Welcome to the Library of Shri Ramdeobaba College of Engineering and Management. It was established in
+                the year 1984. It is regarded as the best technical Library. It serves as a knowledge hub containing
+                resources not only in the form of print but also in e-resources .</p>
+                <br>
+                <a class="hero-btn red-btn" href="http://www.rknec.edu/Academics/Library/CentralLibrary.aspx">EXPLORE</a>
+        </div>
+        <div class="facilities-col">
+            <img src="images/background.png" alt="">
+            <h3>Well Equipped Labs</h3>
+            <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+            <br>
+            <a class="hero-btn red-btn" href="http://www.rknec.edu/Gallery/Sports_Gallery.aspx">EXPLORE</a>
+        </div>
+        <div class="facilities-col">
+            <img src="images/library.jpg" alt="">
+            <h3>RCOEM TBI</h3>
+            <p>The Institute is committed to develop a novel framework for sustainable business ecosystem to promote innovation and nurture
+                entrepreneurship. To impart impetus to innovation eco system, the Institute has established
+                “RCOEM Technology Business Incubators Foundation”, a section 8 company in Dec 2016.</p>
+                <br>
+                <a class="hero-btn red-btn" href="http://www.rknec.edu/IncubationCell.aspx">EXPLORE</a>
+            </div>
+    </div>
+</section>
+
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>
+        GCET is one of the best engineering colleges in Hyderabad. NAAC ACCREDITED with 'A' Grade.
+    </p>
+    <div class="icons">
+        <a class="plain-link" href="https://twitter.com/RCOEM_Official"><i class="fa fa-twitter"></i></a>
+        <a class="plain-link" href="https://www.facebook.com/Shri-Ramdeobaba-College-of-Engineering-and-Management-Nagpur-India-301344790226543/?skip_nax_wizard=true"><i class="fa fa-facebook"></i></a>
+        <a class="plain-link" href="https://www.instagram.com/rcoem__official"><i class="fa fa-instagram"></i></a>
+        <a class="plain-link" href="https://www.youtube.com/channel/UCufL_1MVGtcmLjm2rQFBY9g"><i class="fa fa-youtube"></i></a>
+    </div>
+</section>
+
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
