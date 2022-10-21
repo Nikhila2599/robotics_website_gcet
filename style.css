@@ -603,7 +603,9 @@ h3 {
     background-position: center;
     background-size: cover;
     position: relative;
-}.tablepress tbody tr:first-child td {
+}
+
+.tablepress tbody tr:first-child td {
     border-top: 0;
 }
 .tablepress-id-8 .column-1, .tablepress-id-8 .column-2, .tablepress-id-8 .column-3, .tablepress-id-8 .column-4, .tablepress-id-8 .column-5 {
