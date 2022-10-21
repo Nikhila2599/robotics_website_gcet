@@ -594,6 +594,54 @@ h3 {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(images/OAT.jpg);
 }
+.sub-header-image-5 {
+
+      min-height: 100vh;
+      width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/rob.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}.tablepress tbody tr:first-child td {
+    border-top: 0;
+}
+.tablepress-id-8 .column-1, .tablepress-id-8 .column-2, .tablepress-id-8 .column-3, .tablepress-id-8 .column-4, .tablepress-id-8 .column-5 {
+    text-align: center;
+}
+.tablepress tbody td, .tablepress tfoot th {
+    border-top: 1px solid #ddd;
+}
+.tablepress tbody td {
+    vertical-align: top;
+}
+.tablepress td, .tablepress th {
+    padding: 8px;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+}
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.robo{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+td {
+    font-size: .9em;
+    border-bottom: 2px solid var(--nv-text-color);
+}
+td, th {
+    padding: 20px;
+}
+td, th {
+    padding: 0;
+    text-align: left;
+}
+
 
 .sub-header h1 {
   margin-top: 100px;
