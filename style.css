@@ -645,6 +645,47 @@ td, th {
 }
 
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.tablepress thead th, .tablepress tfoot th {
+    background-color: #13047A;
+    color: #fff;
+}
+.tablepress {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 1em;
+    border: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 20px;
+    width: 100%;
+    word-break: initial;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+
+
 .sub-header h1 {
   margin-top: 100px;
 }
